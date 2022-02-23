@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/ivImagen"
+        android:src="@drawable/tecnm"
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/tvMatricula"
+        android:hint="Matricula"
+        android:background="@color/lavanda"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/ivImagen"
+        android:layout_marginLeft="5dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="216dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/tvMatricula"
+        android:gravity="center"
+        android:background="@color/lavanda"
+        android:hint="Nombre"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="25dp"
+        android:id="@+id/tvNumero"
+        android:hint="Teléfono"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/lavanda"
+        android:layout_toRightOf="@+id/ivImagen"
+        android:layout_below="@id/tvMatricula"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"/>
+    <View
+        android:id="@+id/VLinea2"
+        android:layout_below="@id/tvNumero"
+        android:background="@color/teal_200"
+        android:layout_height="3dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        />
+</RelativeLayout>
